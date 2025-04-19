@@ -8,7 +8,7 @@ export AWS_DEFAULT_REGION=
 
 # Create a unique tag for this run to track which rules we added
 TIMESTAMP=$(date +%Y%m%d%H%M%S)
-TAG_VALUE="_${TIMESTAMP}"
+TAG_VALUE="*speacial tag description*_${TIMESTAMP}"
 IP="" # add IP !
 Region="" #add region !
 TRACKING_FILE="/home/cloudshell-user/track-files/_added_rules_${TIMESTAMP}.txt"
