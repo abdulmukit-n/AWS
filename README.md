@@ -9,4 +9,6 @@ this will add a portocol:all , port:all for an IP in a region to all the Securit
 
 it will be ran from within the CLI , in the file it does tracking for cloudshell user but that path can be changed. tracking files are good for checking SGs that change was made to and not made to succesfully.
 
+tracking effectively can only be done with a special tag value that you also have to fill on line 11 (in order to perform a delete on this multi rule in the future)
+
 ---
